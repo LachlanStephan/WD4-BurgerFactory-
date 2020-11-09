@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  color: #2e2c2b;;
+}
+
+.linksWrapper {
+  margin: auto;
+}
+
+/* Header */
+.headerContainer {
+  padding: 1em;
+  text-decoration: underline;
+  color: rgb(21, 155, 110);
+}
+
+/* Links */
+#linkStyle {
+  color: burlywood;
+  margin: 1em;
+  padding: 1px;
+}
+
+#linkStyle:visited {
+  color: burlywood;
+  text-decoration: none;
+}
+
+#linkStyle:focus {
+  border: 2px solid lightpink;
+  border-radius: 5px;
+  color: lightpink;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Home page */
+.hContainer {
+  padding: 2em 0em;
+}
+
+.hContainer h3 {
+  padding: 0.5em 0em;
+}
+
+.homeP {
+  padding: 3em 1em 5em 1em;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+.CardBody {
+  background-image: url('./images/burgerHP.jpg');
+}
+
+/* About page */
+.aboutContainer {
+  padding: 2em 0em;
+}
+
+.aboutText {
+  padding: 2em;
+}
+/* SVG stuff */
+.svgContainer {
+  padding: 3em 0em;
+}
+
+svg {
+  background-color: grey;
+  opacity: 50%;
+  border-radius: 10px;
+}
+
+/* Contact page */
+.contactContainer {
+  padding: 2em 0em;
+}
+
+.contactText {
+  padding: 2em;
+}
+
+/* Location page */
+.locationContainer {
+  padding-top: 2em 0em;
+}
+
+.locationHeader {
+  margin: 2em 0em;
+}
+
+/* Footer */
+.footerP {
+  margin-bottom: 0;
+  margin-top: 2em;
+  padding: 0;
+  height: 10em;
+}
+
+.lead {
+  padding: 0.5em;
+}
+
+/* Desktop map */
+@media only screen and (min-wdith: 600px) {
+  .locationMap {
+    width: 100vw;
+  }
+} 
