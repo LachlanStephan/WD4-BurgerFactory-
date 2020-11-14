@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  margin: auto;
+  color: #2e2c2b;
+  ;
+}
+
+.linksWrapper {
+  margin: auto;
+}
+
+/* Header */
+.headerContainer {
+  padding: 1em;
+  text-decoration: underline;
+  color: rgb(21, 155, 110);
+}
+
+/* Links */
+#linkStyle {
+  color: burlywood;
+  margin: 1em;
+  padding: 1px;
+}
+
+#linkStyle:visited {
+  color: burlywood;
+  text-decoration: none;
+}
+
+#linkStyle:focus {
+  border: 2px solid lightpink;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 2px lightpink;
+  transition: box-shadow 0.7s linear;
+  color: lightpink;
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Home page */
+.hContainer {
+  padding: 2em 0em;
+}
+
+.hContainer h3 {
+  padding: 0.5em 0em;
+}
+
+.homeP {
+  padding: 3em 1em 5em 1em;
+}
+
+.card {
+  margin-top: 2em;
+}
+
+.CardBody {
+  background-image: url('./images/burgerHP.jpg');
+}
+
+/* About page */
+.aboutContainer {
+  padding: 2em 0em;
+}
+
+.aboutText {
+  padding: 2em;
+}
+
+/* SVG stuff */
+.svgContainer {
+  padding: 3em 0em;
+}
+
+#rect1 {
+  stroke: grey;
+  fill: red;
+}
+
+#rect2 {
+  stroke: grey;
+  fill: darkmagenta;
+}
+
+#rect3 {
+  stroke: grey;
+  fill: darkorange;
+}
+
+/* Contact page */
+.contactContainer {
+  padding: 2em 0em;
+}
+
+.contactText {
+  background-color: 2em;
+}
+
+/* Location page */
+.locationContainer {
+  padding-top: 2em 0em;
+}
+
+.locationHeader {
+  margin: 2em 0em;
+}
+
+/* Footer */
+.footerP {
+  margin-bottom: 0;
+  margin-top: 2em;
+  padding: 0;
+  height: 10em;
+}
+
+.lead {
+  padding: 0.5em;
+}
+
+/* could remove width from map and add it to css */
+/* Desktop map */
+@media only screen and (min-wdith: 600px) {
+  .locationMap {
+    width: 100vw;
+  }
+}
